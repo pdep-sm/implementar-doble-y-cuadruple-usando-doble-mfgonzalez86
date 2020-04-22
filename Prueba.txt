@@ -1,0 +1,14 @@
+GHCi, version 8.2.2: http://www.haskell.org/ghc/  :? for help
+Prelude> :cd C:\Users\ferch\Desktop\Facultad\pdep\2020
+Prelude> :load "tp1.hs"
+[1 of 1] Compiling Main             ( tp1.hs, interpreted )
+Ok, one module loaded.
+*Main> costoDeReparacion (Auto "AT001LN" [ ] 0 0 (0,0,0))
+12500
+*Main> costoDeReparacion (Auto "DJV214" [ ] 0 0 (0,0,0))
+18000
+*Main> costoDeReparacion (Auto "DJV215" [ ] 0 0 (0,0,0))
+20000
+*Main> costoDeReparacion (Auto "DFH029" [ ] 0 0 (0,0,0))
+15000
+*Main> 
