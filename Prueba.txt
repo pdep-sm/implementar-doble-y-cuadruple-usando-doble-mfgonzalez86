@@ -4,6 +4,9 @@ Prelude> :load "tp1.hs"
 [1 of 1] Compiling Main             ( tp1.hs, interpreted )
 Ok, one module loaded.
 *Main> costoDeReparacion (Auto "AT001LN" [ ] 0 0 (0,0,0))
+
+pruebas git bash
+
 12500
 *Main> costoDeReparacion (Auto "DJV214" [ ] 0 0 (0,0,0))
 18000
